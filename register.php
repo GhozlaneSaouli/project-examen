@@ -22,7 +22,7 @@ echo "$username $email $password $confirm_password";
 
 if($password == $confirm_password){
  
-    $inserer = $bdd->query("INSERT INTO connection(username,email,password,confirm_password) VALUES ('$username','$email', '$password', '$confirm_password')");//POUR INSIRER LES VALUE DANS LES ATRIBUE QUI EXISTE DANS LE TABLEAU
+    $inserer = $bdd->query("INSERT INTO connection(username,email,password,confirm_password) VALUES ('$username','$email', '$password', '$confirm_password')");
 
 }
 
